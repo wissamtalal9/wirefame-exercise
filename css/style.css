@@ -1,9 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  body {
-    background-color: rgb(226, 178, 196);
-  }
   
 /* Style the header */
 .header {
@@ -39,6 +36,9 @@
     width: 100%;
     padding: 20px;
   }
+  .topnav img {
+    margin-right: 70px;
+  }
 
 
       @media screen and (max-width: 600px) {
@@ -51,6 +51,8 @@
     font-size: 30px;
     margin-top: 30px;
     background-color: #333;
+    margin-left: 10px;
+
 }
 .footer {
     background-color: #F1F1F1;
@@ -73,14 +75,16 @@
 .wrapper2 {
   display: grid;
   grid-template-columns: 480px 2fr;
-  text-align: center;
+  text-align: left;
   margin-top: 30px;
 }
 .wrapper2 h2 {
   font-size: 30px;
+  text-align: center;
 }
 .wrapper2 p {
   font-size: 20px;
+  margin-left: 10px;
 }
 .main {
   padding: 16px;
